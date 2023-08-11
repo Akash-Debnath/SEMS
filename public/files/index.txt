@@ -1,0 +1,1 @@
+class="nav-item {{'attachment'  == request()->path() ? 'menu-open' : ''}} {{'notice'  == request()->path() ? 'menu-open' : ''}} {{'policy'  == request()->path() ? 'menu-open' : ''}} {{'holiday'  == request()->path() ? 'menu-open' : ''}} {{'incident'  == request()->path() ? 'menu-open' : ''}} {{'job-description-board'  == request()->path() ? 'menu-open' : ''}}"

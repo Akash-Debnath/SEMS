@@ -1,0 +1,15 @@
+.common-card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navbar-logout {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+}
+
+.note-editable{
+   min-height: 150px;
+}

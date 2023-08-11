@@ -1,0 +1,5 @@
+gPlex(root user)
+Issues:
+
+1.In Wallboard Box of "Settings" Update doesn't work properly.
+2.In Wallboard User of "Settings" Update doesn't work in one click.

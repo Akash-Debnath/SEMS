@@ -1,0 +1,338 @@
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+    height: auto;
+
+}
+
+.select2-container {
+
+    display: block;
+    margin: 0;
+    position: relative;
+
+
+}
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 17px;
+}
+
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+
+// .btn-primary {
+//     background-color: #0d6efd;
+//     border-color: #0d6efd;
+// }
+
+.alert-primary {
+    background-color: #17a2b8 light;
+}
+
+.common-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logout {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gap-card-header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+// overwrite code
+.anchor-btn {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+// multiple file upload css
+.btn-upload {
+    // padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.upload-input-group {
+    margin-bottom: 10px;
+}
+
+.input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+    height: 45px;
+}
+
+.select2-container {
+    border-color: #878e96;
+}
+
+// td{
+//     vertical-align : middle;
+//     text-align:center;
+// }
+
+.card-header {
+    background-color: #ffffff;
+}
+
+// search
+
+.select2-container .select2-selection--multiple {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    min-height: calc(2.25rem + 2px);
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+
+// to change bg-color of multiple select
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #137e55;
+    border: 1px solid rgb(44, 228, 99);
+
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.form-check {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+}
+
+label {
+
+    margin-bottom: 0;
+}
+
+// select2
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: calc(2.25rem + 2px);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+
+    margin-top: 2px;
+
+}
+
+
+
+.table td {
+    vertical-align: middle;
+}
+
+.table td {
+    padding: 0.4rem;
+    font-size: 13px;
+
+}
+
+
+.table th {
+    padding: 0.4rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+body {
+    font-size: 14px;
+}
+
+.form-check-label {
+    margin-top: 3px;
+}
+
+// login bg
+
+.card-area .card-header {
+    background-color: #fff;
+    color: #f1f4f7;
+    background: #00b09b;
+    background: -webkit-linear-gradient(to left, #32c55e, #00b09b);
+    background: linear-gradient(to left, #32c55e, #00b09b);
+
+}
+
+.profile-user-img {
+    border: 3px solid #adb5bd;
+    margin: 0 auto;
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+i u {
+    color: #137e55;
+
+}
+
+// employee edit button
+
+.edit-emp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// report table
+
+.report td {
+    text-align: center;
+}
+
+// edit-emp
+// .emp_edit td{
+//     vertical-align: top;
+// }
+
+// download
+.mb-0p {
+    margin-bottom: 5px !important;
+}
+
+.download {
+
+    padding: 0.1rem 0.25rem;
+}
+
+.txt-blue {
+    color: #314dee;
+}
+
+/*
+@author: Akash Chnadra Debnath
+CSS for change all checkbox check-mark color
+*/
+input[type=checkbox] {
+    accent-color: #00b09b;
+}
+
+/*  Increase font size of late/early request checkboxes label  */
+.check > .form-check > .form-check-label {
+    font-size: 1rem;
+}
+
+
+//   group > .form-control:not(:last-child) {
+//     height: 39px !important;
+//   }
+.input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+    // height: 39px !important;
+    height: 50%;
+}
+
+//   .btn-upload {
+//     // padding: 10px 10px;
+//     margin-left: 10px !important;
+//   }
+
+.user-panel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        object-fit: fill;
+        border: 2px solid #adb5bd;
+    }
+
+}
+
+
+// fixing sidebar searchbar
+
+[class*="sidebar-dark-"] .sidebar-search-open a {
+    background-color: #137e55;
+}
+
+[class*="sidebar-dark"] .list-group-item {
+    border: 1px solid #5a8a77;
+}
+
+[class*="sidebar-dark"] .list-group-item:hover {
+    background-color: #0e5c3e;
+}
+
+[class*="sidebar-dark"] .btn-sidebar:hover {
+    background-color: #137e55;
+}
+
+input.form-control.form-control-sidebar {
+    padding: 0.5rem;
+}
+
+// user panel image
+.user-panel-image .img-thumbnail {
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    // border-radius: 0.25rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+    max-width: 100%;
+    height: auto;
+}
+
+//Modal Close Icon & Button
+.close, .mailbox-attachment-close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff !important;
+    opacity: 1;
+}
+.close:hover, .mailbox-attachment-close:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+// create role
+
+label.form-check-label.create-role-form-check {
+    text-transform: capitalize !important;
+}

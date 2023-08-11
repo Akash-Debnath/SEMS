@@ -1,0 +1,7 @@
+1) vulnerability checking
+2) penetration testing
+3) xss attack checking and provide solution
+4) sql injection attack checking and provide solution for it
+5) no-redirect and preventing site from it
+6) error-based sql injection.
+7) database related sql injection(accessing data).

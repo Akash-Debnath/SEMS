@@ -1,0 +1,9 @@
+
+
+### Task : Create Migrations 
+
+#ALL #EMPLOYEE
+php artisan make:model Employee -m   //eployees table
+
+
+#Login system with email & username

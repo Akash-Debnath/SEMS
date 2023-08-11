@@ -1,0 +1,323 @@
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding-left: 0;
+  height: auto;
+}
+
+.select2-container {
+  display: block;
+  margin: 0;
+  position: relative;
+}
+
+.modal-dialog {
+  max-width: 700px;
+}
+
+.modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 17px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.alert-primary {
+  background-color: #17a2b8 light;
+}
+
+.common-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-logout {
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gap-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+}
+
+.anchor-btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn-upload {
+  margin-left: 10px;
+}
+
+.upload-input-group {
+  margin-bottom: 10px;
+}
+
+.input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+  height: 45px;
+}
+
+.select2-container {
+  border-color: #878e96;
+}
+
+.card-header {
+  background-color: #ffffff;
+}
+
+.select2-container .select2-selection--multiple {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  min-height: calc(2.25rem + 2px);
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #137e55;
+  border: 1px solid #2ce463;
+}
+
+.gap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+}
+
+.form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.select2-container .select2-selection--single {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: calc(2.25rem + 2px);
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  margin-top: 2px;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table td {
+  padding: 0.4rem;
+  font-size: 13px;
+}
+
+.table th {
+  padding: 0.4rem;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+body {
+  font-size: 14px;
+}
+
+.form-check-label {
+  margin-top: 3px;
+}
+
+.card-area .card-header {
+  background-color: #fff;
+  color: #f1f4f7;
+  background: #00b09b;
+  background: -webkit-gradient(linear, right top, left top, from(#32c55e), to(#00b09b));
+  background: linear-gradient(to left, #32c55e, #00b09b);
+}
+
+.profile-user-img {
+  border: 3px solid #adb5bd;
+  margin: 0 auto;
+  padding: 3px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+i u {
+  color: #137e55;
+}
+
+.edit-emp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.report td {
+  text-align: center;
+}
+
+.mb-0p {
+  margin-bottom: 5px !important;
+}
+
+.download {
+  padding: 0.1rem 0.25rem;
+}
+
+.txt-blue {
+  color: #314dee;
+}
+
+/*
+@author: Akash Chnadra Debnath
+CSS for change all checkbox check-mark color
+*/
+input[type=checkbox] {
+  accent-color: #00b09b;
+}
+
+/*  Increase font size of late/early request checkboxes label  */
+.check > .form-check > .form-check-label {
+  font-size: 1rem;
+}
+
+.input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+  height: 50%;
+}
+
+.user-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-panel img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border: 2px solid #adb5bd;
+}
+
+[class*="sidebar-dark-"] .sidebar-search-open a {
+  background-color: #137e55;
+}
+
+[class*="sidebar-dark"] .list-group-item {
+  border: 1px solid #5a8a77;
+}
+
+[class*="sidebar-dark"] .list-group-item:hover {
+  background-color: #0e5c3e;
+}
+
+[class*="sidebar-dark"] .btn-sidebar:hover {
+  background-color: #137e55;
+}
+
+input.form-control.form-control-sidebar {
+  padding: 0.5rem;
+}
+
+.user-panel-image .img-thumbnail {
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  max-width: 100%;
+  height: auto;
+}
+
+.close, .mailbox-attachment-close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff !important;
+  opacity: 1;
+}
+
+.close:hover, .mailbox-attachment-close:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+label.form-check-label.create-role-form-check {
+  text-transform: capitalize !important;
+}
+/*# sourceMappingURL=main.css.map */
