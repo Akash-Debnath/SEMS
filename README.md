@@ -3,7 +3,7 @@
 ### 1. Clone the repo to htdocs or www folder
 
 ```
-git clone gslgit@192.168.10.63:/home/gslgit/ems2.1.git
+git clone https://github.com/Akash-Debnath/SEMS.git
 ```
 
 ### 2. go to the directory 
@@ -63,57 +63,26 @@ http://localhost/ems2.1/public
 ### 10. User credentials for login
 ```html
 
-body: 
-    username: CEO.
-    or,Email :anis.rahman@genusys.us
-    password: 12345678
-```
+body:
 
-
-```
-    Role: management
+    1. Role: management
     username: PRESIDENT
+    Email   :
     password: 12345678
 
-    Role: hr
+    2. Role: hr
     username: 21
+    Email   :
     password: 12345678
 
-    Role: headOfDepartment
+    3. Role: headOfDepartment
     username: 319
+    Email   :
     password: 12345678
 
-    Role: employee
+    4. Role: employee
     username: 211
+    Email   :
     password: 12345678
 ```
-
-
-
-
-
-
-
-
-
-## 11.
-
-```
-Few pages still not connected to sidebar so need to check by URL hitting  ( url find from - routes/web.php )
-```
-
-
-### Development Log [Unfinished]
-
-- Pusher Notification                   **(Remaining)**
-- Automail system                       **(Remaining)**
-- Evaluation average points, current position check, evaluation status and access control             **(Remaining)**
-- Download issue in policy, jobdescription                       **(Remaining)**
-- Facilities edit/update in employee profile page                **(Remaining)**
-- Integrate gmail                                                **(Remaining)**
-- Profile Update history add in db & update when approve         **(Remaining)**
-- Attachment send to specific department/employee, attachment file delete issue when edit attachment  **(Remaining)**
-- Administrator Privilege and Permission Privilege is implemented but not used for ACL. [Can remove as not of use] 
-- Git updated
-
 
