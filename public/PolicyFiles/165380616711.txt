@@ -1,3 +1,0 @@
-http://localhost/slqtest/
-
-http://localhost/phpmyadmin/index.php?route=/sql&server=1&db=db_01&table=admin&pos=0
