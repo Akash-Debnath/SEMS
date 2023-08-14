@@ -8,7 +8,7 @@ git clone https://github.com/Akash-Debnath/SEMS.git
 
 ### 2. go to the directory 
 ```
-cd ems2.1
+cd SEMS
 ```
 
 ### 3. Install Composer
